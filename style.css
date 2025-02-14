@@ -1,33 +1,31 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #ffecec;
+    background-color: #ffecec; 
     overflow: hidden;
-    margin: 0;
-    padding: 0;
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 100px;
     position: relative;
-    padding: 20px;
 }
 
 .cat-gif {
-    width: 80%;
-    max-width: 400px;
+    width: 500px;
     margin-bottom: 20px;
 }
 
+/* Centering Buttons Properly */
 .button-container {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px; /* Ensures spacing from the GIF */
 }
 
 button {
-    font-size: 20px;
+    font-size: 24px; 
     padding: 12px 24px;
     cursor: pointer;
     transition: transform 0.2s ease-in-out, font-size 0.2s ease-in-out;
@@ -37,7 +35,6 @@ button {
     background-color: #ff4d4d;
     color: white;
     border: none;
-    font-size: 22px;
 }
 
 #no-btn {
@@ -46,15 +43,15 @@ button {
     border: none;
 }
 
-@media (max-width: 600px) {
-    .button-container {
-        flex-direction: column;
-        gap: 10px;
-    }
+/* Ensure Text is Not Touching Screen Edges */
+.gif-container {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+}
 
-    button {
-        width: 80%;
-        max-width: 200px;
-        font-size: 18px;
-    }
+.message {
+    padding: 20px; /* Adds space from screen edges */
+    font-size: 18px;
+    line-height: 1.5;
 }
