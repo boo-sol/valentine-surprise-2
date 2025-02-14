@@ -45,13 +45,13 @@ button {
 
 /* Ensure Text is Not Touching Screen Edges */
 .gif-container {
-    max-width: 90%;
+    max-width: 80%;
     margin: auto;
     text-align: center;
 }
 
 .message {
-    padding: 20px; /* Adds space from screen edges */
+    padding: 10px; /* Adds space from screen edges */
     font-size: 18px;
     line-height: 1.5;
 }
