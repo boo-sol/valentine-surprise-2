@@ -45,7 +45,7 @@ button {
 
 /* Ensure Text is Not Touching Screen Edges */
 .gif-container {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     text-align: center;
 }
